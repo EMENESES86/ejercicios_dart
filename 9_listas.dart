@@ -1,5 +1,6 @@
 main() {
   List personajes = ['batman', 'superman'];
+  print(personajes.length);
   print(personajes);
 
   print("------------");
@@ -23,4 +24,5 @@ main() {
   print(num);
   personajes.remove("batman");
   print(personajes);
+
 }
